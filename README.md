@@ -1,16 +1,22 @@
 # 自己用到的第三方库
 ## 添加依赖库的方法
-# 在项目中添加此组件的方式:
-## Step 1. 项目的build.gradle文件做如下修改
+# 数据库
+## Greendao(https://github.com/greenrobot/greenDAO)
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url "https://jitpack.io" }
-		}
-	}
+相关说明
 	
 ```
+## LitePal(https://github.com/LitePalFramework/LitePal)
+```
+相关说明
+	
+```
+## android-lite-orm(https://github.com/litesuits/android-lite-orm)
+```
+相关说明
+	
+```
+
 
 ## Step 2. 添加依赖
 ### 最新版本号为:[![](https://jitpack.io/v/Brioal/BottomTabLayout.svg)](https://jitpack.io/#Brioal/BottomTabLayout)
