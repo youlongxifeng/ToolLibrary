@@ -1,4 +1,4 @@
-# BottomTabLayout
+# 自己用到的第三方库
 ## 添加依赖库的方法
 # 在项目中添加此组件的方式:
 ## Step 1. 项目的build.gradle文件做如下修改
