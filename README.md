@@ -99,4 +99,30 @@ xml属性|Java方法|功能
 
 ## 方法就这些,使用也不难.
 
-# 另外我建了个qq群,方便交流,欢迎各种大神,新手老手加入,群号码:375276053完毕~
+# 
+<!--获取运营商信息，用于支持提供运营商信息相关的接口-->
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+ <!--用于访问wifi网络信息，wifi信息会用于进行网络定位--> 
+ <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+ <!--这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位--> 
+ <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+ <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+ <!-- 请求网络 --> 
+ <uses-permission android:name="android.permission.INTERNET" />
+ <!-- 更改设置 --> 
+ <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+ <!--用于进行网络定位-->
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+ <!-- 可以提高室内定位的精确度 -->
+ <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> 
+ <!-- 可以提高室内定位的精确度 --> 
+ <uses-permission android:name="android.permission.BLUETOOTH" /> 
+ <!--用于访问GPS定位--> 
+ <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+ <!--用于提高GPS定位速度--> 
+ <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> 
+ <!--写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据--> 
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+ <!--读取缓存数据--> 
+ <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+ <!--用于读取手机当前的状态--> <uses-permission android:name="android.permission.READ_PHONE_STATE" />
